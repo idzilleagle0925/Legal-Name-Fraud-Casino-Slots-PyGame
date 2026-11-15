@@ -8,6 +8,7 @@ Everything is generated in code, including the symbols, lever, lights, sound eff
 
 > Entertainment only. Play credits have no cash value and no real money is involved.
 
+.exe Windows file also available for fast/easy gameplay without the need for pygame/python.
 ---
 
 ## Features
