@@ -108,3 +108,151 @@ Reel strips are fixed and shuffled with a seeded generator, so the machine is id
 Credits, bet, lines, sound/music settings, meter and stats are saved to `bandids_save.json` next to the script. Delete the file or run with `--reset` to start over. You get 1,000 credits to start, and **PLAY AGAIN** appears when you run out.
 
 one_armed_bandids.py 
+
+
+
+
+
+
+
+
+# How to Play: Legal Name Fraud Casino Slots
+
+No coding needed. Just follow the steps in order. When you see a gray box, type that exact text into the black window and press **Enter**.
+
+---
+
+## Step 1: Download the game file
+
+1. On GitHub, open the file **one_armed_bandids.py**.
+2. Click the **Download raw file** button (the download arrow, top right of the code box).
+3. Save it anywhere you like (Desktop, Downloads, or a folder). Remember where you put it.
+
+---
+
+## Step 2: Open the terminal
+
+The terminal is a black window where you type commands.
+
+1. Press the **Windows key** on your keyboard.
+2. Type **cmd**.
+3. Press **Enter**.
+
+A black window opens. Keep it open.
+
+---
+
+## Step 3: Check if you have Python
+
+Type this and press Enter:
+
+```
+python --version
+```
+
+- If it shows something like `Python 3.12.3`, you have Python. **Go to Step 5.**
+- If it says `'python' is not recognized`, or the Microsoft Store opens, you need Python. **Go to Step 4.**
+
+---
+
+## Step 4: Install Python (only if you needed it)
+
+1. Go to **python.org/downloads**
+2. Click the yellow **Download Python** button and open the file.
+3. On the first screen, **tick the box "Add python.exe to PATH"**. This is important.
+4. Click **Install Now**.
+5. When it finishes, click **Close**.
+6. **Close the black window and open a new one** (repeat Step 2).
+7. Type `python --version` again. You should see a version number now.
+
+---
+
+## Step 5: Install pygame-ce
+
+Pygame is the add-on that lets the game run. Type this and press Enter:
+
+```
+python -m pip install pygame-ce
+```
+
+Wait until it says **Successfully installed**. This only has to be done once.
+
+---
+
+## Step 6: Go to the folder where you saved the game
+
+Type `cd` followed by a **space**, then **drag your folder** from File Explorer into the black window. It fills in the folder path for you. Press Enter.
+
+Example of what it looks like when done:
+
+```
+cd C:\Users\YourName\Downloads
+```
+
+**If you saved the file to the Desktop or Downloads, you can also type:**
+
+```
+cd Desktop
+```
+
+or
+
+```
+cd Downloads
+```
+
+**Check you are in the right place.** Type this and press Enter:
+
+```
+dir
+```
+
+You should see **one_armed_bandids.py** in the list. If you do not, go back and try Step 6 again.
+
+---
+
+## Step 7: Run the game
+
+Type this and press Enter:
+
+```
+python one_armed_bandids.py
+```
+
+The game opens. Click **PLAY** or press **SPACE**.
+
+**To play again another day:** open the terminal (Step 2), go to the folder (Step 6), and run the game (Step 7). You do not need to install anything again.
+
+---
+
+## Controls
+
+| Action | Key |
+|---|---|
+| Spin / quick-stop | `SPACE` or click the red lever |
+| Bet up / down | `UP` / `DOWN` arrows |
+| Lines more / fewer | `RIGHT` / `LEFT` arrows |
+| Max bet | `M` |
+| Auto-spin | `A` |
+| Turbo | `T` |
+| Gamble last win | `G` |
+| Paytable | `P` |
+| Sound on / off | `S` |
+| Fullscreen | `F11` |
+| Quit | `ESC` |
+
+---
+
+## Problems?
+
+| Problem | Fix |
+|---|---|
+| `'python' is not recognized` | Python isn't installed, or "Add python.exe to PATH" wasn't ticked. Redo Step 4, then open a **new** black window. |
+| `Failed to build pygame` | Use `python -m pip install pygame-ce` (Step 5). If it still fails, install **Python 3.12** from python.org and try again. |
+| `No module named pygame` | Redo Step 5. |
+| `can't open file one_armed_bandids.py` | You're in the wrong folder. Redo Step 6 and check with `dir`. |
+| Want a fresh start with 1,000 credits | Run `python one_armed_bandids.py --reset` once. |
+
+*Mac users: use `python3` instead of `python` everywhere, and open Terminal with Command + Space, then type Terminal.*
+
+*For entertainment only. Credits have no cash value.*
